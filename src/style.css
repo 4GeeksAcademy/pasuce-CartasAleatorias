@@ -2,12 +2,12 @@
 
 body {
     background-image: url(https://img.freepik.com/fotos-premium/casino85_980832-822.jpg);
-    /* Reemplaza con la ruta de la imagen */
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* Mantiene la imagen fija al hacer scroll */
+
 }
 
 h1 {
@@ -49,14 +49,29 @@ h1 {
 }
 
 .palo-superior {
+    font-size: 30px;
     position: absolute;
     top: 5px;
     left: 5px;
 }
 
 .palo-inferior {
+    font-size: 30px;
     position: absolute;
     bottom: 5px;
     right: 5px;
     transform: rotate(180deg);
+}
+
+
+#nuevaCartaBtn {
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #5b4e29;
+    color: #e7cb3a;
+    border: solid;
+    border-radius: 30px;
+    cursor: pointer;
+
 }
